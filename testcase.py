@@ -9,9 +9,6 @@ from selenium.webdriver.support.select import Select
 from selenium.webdriver.common.action_chains import ActionChains
 from concurrent.futures import ThreadPoolExecutor
 
-username = "abhsih.tadas"
-access_key = "LT_zAgyqW37jYTe0AGJquInrTMv30f9kFfBotOgOtOGjfw4I3F"
-
 
 def get_browser_options(browser):
     """Return browser-specific options with LambdaTest capabilities"""
