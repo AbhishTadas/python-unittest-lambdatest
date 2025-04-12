@@ -1,0 +1,11 @@
+image: gitpod/workspace-python-3.12
+
+tasks:
+  - name: Initial setup
+      export LT_USERNAME=abhsih.tadas
+      export LT_ACCESS_KEY=LT_zAgyqW37jYTe0AGJquInrTMv30f9kFfBotOgOtOGjfw4I3F
+      export LT_TUNNEL=false
+      export LT_BUILD=Selenium 4 Example
+  - name: Run Tests
+    command: python -m unittest discover -s . -p "*.py"
+
